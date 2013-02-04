@@ -1,0 +1,14 @@
+{
+    "name": "SecurityLib/RandomLib",
+    "description": "Random Number And String Generation",
+    "keywords": ["random"],
+    "license": "MIT",
+    "require": {
+        "php": ">=5.3",
+        "SecurityLib/Core": "*"
+    },
+    "autoload": {
+        "psr-0": { "SecurityLib\RandomLib": "" }
+    },
+    "target-dir": "SecurityLib\RandomLib"
+}
