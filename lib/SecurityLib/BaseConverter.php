@@ -6,7 +6,7 @@
  *
  * PHP version 5.3
  *
- * @category   PHPPasswordLib
+ * @category   PHPSecurityLib
  * @package    Core
  * @author     Anthony Ferrara <ircmaxell@ircmaxell.com>
  * @copyright  2011 The Authors
@@ -20,7 +20,7 @@ namespace SecurityLib;
  * A Utility class for converting between raw binary strings and a given
  * list of characters
  *
- * @category   PHPPasswordLib
+ * @category   PHPSecurityLib
  * @package    Core
  * @author     Anthony Ferrara <ircmaxell@ircmaxell.com>
  */
