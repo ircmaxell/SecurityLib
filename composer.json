@@ -1,7 +1,6 @@
 {
     "name": "ircmaxell/security-lib",
     "type": "library",
-	"version": "0.0.1-beta1",
     "description": "A Base Security Library",
     "keywords": [],
     "homepage": "https://github.com/ircmaxell/PHP-SecurityLib",
@@ -22,6 +21,11 @@
     "autoload": {
         "psr-0": {
             "SecurityLib": "lib"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.0.x-dev"
         }
     }
 }
