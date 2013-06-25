@@ -1,7 +1,6 @@
 {
     "name": "ircmaxell/security-lib",
     "type": "library",
-	"version": "1.0.0",
     "description": "A Base Security Library",
     "keywords": [],
     "homepage": "https://github.com/ircmaxell/PHP-SecurityLib",
