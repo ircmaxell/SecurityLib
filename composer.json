@@ -3,7 +3,7 @@
     "type": "library",
     "description": "A Base Security Library",
     "keywords": [],
-    "homepage": "https://github.com/ircmaxell/PHP-SecurityLib",
+    "homepage": "https://github.com/ircmaxell/SecurityLib",
     "license": "MIT",
     "authors": [
         {
