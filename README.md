@@ -8,3 +8,8 @@ License
 -------
 
 MIT, see LICENSE.
+
+Security Vulnerabilities
+========================
+
+If you have found a security issue, please contact the author directly at [me@ircmaxell.com](mailto:me@ircmaxell.com).
