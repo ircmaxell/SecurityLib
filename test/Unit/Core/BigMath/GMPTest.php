@@ -8,7 +8,7 @@ class Unit_Core_BigMath_GMPTest extends Unit_Core_BigMathTest {
     
     protected function setUp() {
         if (!extension_loaded('gmp')) {
-            $this->markTestSkipped('BCMath is not loaded');
+            $this->markTestSkipped('GMP is not loaded');
         }
     }
     

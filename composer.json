@@ -18,6 +18,10 @@
     "require": {
         "php": ">=5.3.2"
     },
+    "suggest": {
+	"ext-gmp": "GMP will be used if available",
+	"ext-bcmath": "BCMath will be used if GMP is not available"
+    },
     "autoload": {
         "psr-0": {
             "SecurityLib": "lib"

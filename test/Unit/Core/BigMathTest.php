@@ -35,10 +35,10 @@ class Unit_Core_BigMathTest extends PHPUnit_Framework_TestCase {
 
     public function testCreateFromServerConfiguration() {
         $instance = \SecurityLib\BigMath::createFromServerConfiguration();
-        if (extension_loaded('bcmath')) {
-            $this->assertEquals('SecurityLib\\BigMath\\BCMath', get_class($instance));
-        } elseif (extension_loaded('gmp')) {
+        if (extension_loaded('gmp')) {
             $this->assertEquals('SecurityLib\\BigMath\\GMP', get_class($instance));
+	} elseif (extension_loaded('bcmath')) {
+            $this->assertEquals('SecurityLib\\BigMath\\BCMath', get_class($instance));
         } else {
             $this->assertEquals('SecurityLib\\BigMath\\PHPMath', get_class($instance));
         }
