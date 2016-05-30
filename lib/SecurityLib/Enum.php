@@ -39,7 +39,7 @@ abstract class Enum {
     protected $name = '';
 
     /**
-     * @var scalar The value of the constant this instance is using.
+     * @var mixed The value of the constant this instance is using.
      */
     protected $value = '';
 
