@@ -28,7 +28,7 @@ abstract class BigMath {
      * This is NOT a singleton.  It simply loads the proper strategy
      * given the current server configuration
      *
-     * @return \PasswordLib\Core\BigMath A big math instance
+     * @return \SecurityLib\BigMath A big math instance
      */
     public static function createFromServerConfiguration() {
         //@codeCoverageIgnoreStart
@@ -48,7 +48,7 @@ abstract class BigMath {
      * @param string $left  The left argument
      * @param string $right The right argument
      *
-     * @return A base-10 string of the sum of the two arguments
+     * @return string A base-10 string of the sum of the two arguments
      */
     abstract public function add($left, $right);
 
@@ -58,7 +58,7 @@ abstract class BigMath {
      * @param string $left  The left argument
      * @param string $right The right argument
      *
-     * @return A base-10 string of the difference of the two arguments
+     * @return string A base-10 string of the difference of the two arguments
      */
     abstract public function subtract($left, $right);
 

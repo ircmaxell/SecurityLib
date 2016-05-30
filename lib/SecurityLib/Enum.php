@@ -69,7 +69,7 @@ abstract class Enum {
     /**
      * Cast the current object to a string and return its value
      *
-     * @return mixed the current value of the instance
+     * @return string the current value of the instance
      */
     public function __toString() {
         return (string) $this->value;
