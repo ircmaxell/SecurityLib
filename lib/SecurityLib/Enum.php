@@ -29,7 +29,7 @@ use \ReflectionObject;
 abstract class Enum {
 
     /**
-     * A default value of null is provided.  Override this to set your own default
+     * A default value of null is provided. Override this to set your own default
      */
     const __DEFAULT = null;
 
