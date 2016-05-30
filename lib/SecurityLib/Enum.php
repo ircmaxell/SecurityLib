@@ -49,7 +49,6 @@ abstract class Enum {
      * @param mixed   $value  The value this instance represents
      * @param boolean $strict Not Implemented at this time
      *
-     * @return void
      * @throws UnexpectedValueException If the value is not a constant
      */
     public function __construct($value = null, $strict = false) {
