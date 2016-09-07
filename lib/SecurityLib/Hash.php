@@ -347,8 +347,8 @@ class Hash {
      * uses.
      * 
      * @param string $hash The hash function to look up
-     * 
-     * @return bolean If the function is secure
+     *
+     * @return boolean If the function is secure
      */
     public static function isSecure($hash) {
         if (isset(static::$hashInfo[$hash])) {

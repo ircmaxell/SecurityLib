@@ -29,7 +29,7 @@ use \ReflectionObject;
 abstract class Enum {
 
     /**
-     * A default value of null is provided.  Override this to set your own default
+     * A default value of null is provided. Override this to set your own default
      */
     const __DEFAULT = null;
 
@@ -39,7 +39,7 @@ abstract class Enum {
     protected $name = '';
 
     /**
-     * @var scalar The value of the constant this instance is using.
+     * @var mixed The value of the constant this instance is using.
      */
     protected $value = '';
 
@@ -49,7 +49,6 @@ abstract class Enum {
      * @param mixed   $value  The value this instance represents
      * @param boolean $strict Not Implemented at this time
      *
-     * @return void
      * @throws UnexpectedValueException If the value is not a constant
      */
     public function __construct($value = null, $strict = false) {
@@ -69,7 +68,7 @@ abstract class Enum {
     /**
      * Cast the current object to a string and return its value
      *
-     * @return mixed the current value of the instance
+     * @return string the current value of the instance
      */
     public function __toString() {
         return (string) $this->value;

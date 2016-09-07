@@ -25,11 +25,11 @@ class GMP extends \SecurityLib\BigMath {
 
     /**
      * Add two numbers together
-     * 
+     *
      * @param string $left  The left argument
      * @param string $right The right argument
-     * 
-     * @return A base-10 string of the sum of the two arguments
+     *
+     * @return string A base-10 string of the sum of the two arguments
      */
     public function add($left, $right) {
         return gmp_strval(gmp_add($left, $right));
@@ -37,11 +37,11 @@ class GMP extends \SecurityLib\BigMath {
 
     /**
      * Subtract two numbers
-     * 
+     *
      * @param string $left  The left argument
      * @param string $right The right argument
-     * 
-     * @return A base-10 string of the difference of the two arguments
+     *
+     * @return string A base-10 string of the difference of the two arguments
      */
     public function subtract($left, $right) {
         return gmp_strval(gmp_sub($left, $right));
